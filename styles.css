@@ -105,6 +105,16 @@ h1{
     background-color: var(--main-medium-blue);
 }
 
+.project-tile{
+    max-width: 450px;
+    height: 450px;
+}
+
+.project-iframe{
+    width: 90%;
+    height: 90%;
+}
+
 /*Section 3: Contact*/
 
 #contact{
