@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1200px;
 }
 
 html{
@@ -17,6 +18,14 @@ html{
     --main-white:rgb(240, 240, 240); 
     scroll-behavior: smooth;
 }
+
+.sub-headers{
+    font-size: 1.65rem;
+    max-width: 75%;
+    margin: 0 auto 4rem auto;
+    text-decoration: underline;
+}
+
 
 /*Header/Navigation Section*/
 #navbar{
@@ -92,22 +101,15 @@ h1{
 
 #projects{
     text-align: center;
-    padding: 7rem;
+    padding: 5rem;
     background-color: var(--main-medium-blue);
-}
-
-.sub-headers{
-    font-size: 1.65rem;
-    max-width: 75%;
-    margin: 0 auto 4rem auto;
-    text-decoration: underline;
 }
 
 /*Section 3: Contact*/
 
 #contact{
     text-align: center;
-    padding: 7rem;
+    padding: 5rem;
     background-color: var(--main-light-blue);
 }
 
