@@ -85,13 +85,38 @@ h1{
     font-size: 3rem;
 }
 #welcome-section p{
-    font-size: 1.45rem;
+    font-size: 2rem;
 }
 
 /*Section 2: Projects*/
 
+#projects{
+    text-align: center;
+    padding: 7rem;
+    background-color: var(--main-medium-blue);
+}
+
+.sub-headers{
+    font-size: 1.65rem;
+    max-width: 75%;
+    margin: 0 auto 4rem auto;
+    text-decoration: underline;
+}
+
 /*Section 3: Contact*/
 
+#contact{
+    text-align: center;
+    padding: 7rem;
+    background-color: var(--main-light-blue);
+}
+
 /*Section 4: Footer*/
+footer{
+    text-align: center;
+    padding: 1.25rem;
+    background-color:var(--main-dark-blue);
+    color: var(--main-white);
+}
 
 /*Media Queries*/
