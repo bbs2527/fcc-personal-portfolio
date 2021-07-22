@@ -12,8 +12,8 @@ html{
 }
 
 :root{
-    --main-dark-blue:rgb(5, 43, 179);
-    --main-medium-blue:rgb(72, 142, 216);
+    --main-dark-blue:rgb(2, 22, 97);
+    --main-medium-blue:rgb(68, 109, 151);
     --main-light-blue:rgb(157, 236, 240);
     --main-white:rgb(240, 240, 240); 
     scroll-behavior: smooth;
@@ -59,10 +59,6 @@ html{
     font-weight:500;
     transition: 0.5s ease-in-out;
     text-shadow: 2px 2px 4px #000000;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -ms-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
 }
 
 ul{
@@ -105,7 +101,7 @@ h1{
     background-color: var(--main-medium-blue);
 }
 
-.sub-headers h2{
+.sub-headers{
     color: var(--main-white);
     font-size: 2.45rem;
 }
@@ -122,11 +118,13 @@ h1{
 .project-tile{
     width: 50%;
     height: 100%;
+    
 }
 
 .project-iframe{
     width: 20rem;
     height: 25rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .project-heading{
@@ -138,12 +136,37 @@ h1{
     padding-bottom: 1rem;
 }
 
+.project-heading:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+button{
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: var(--main-white);
+    text-transform: uppercase;
+    font-size: 1.15rem;
+}
+
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: var(--main-dark-blue);
+    color: var(--main-white);
+}
+
 /*Section 3: Contact*/
 
 #contact{
     text-align: center;
     padding: 5rem;
     background-color: var(--main-light-blue);
+}
+
+.project-tile a{
+    text-decoration: none;
 }
 
 /*Section 4: Footer*/
