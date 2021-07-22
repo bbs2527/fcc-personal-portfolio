@@ -161,7 +161,7 @@ h1{
     padding-bottom: 1rem;
 }
 
-.project-heading:hover{
+.project-heading:hover, button a:hover{
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -177,9 +177,15 @@ button{
 }
 
 button:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: var(--main-dark-blue);
-    color: var(--main-white);
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+}
+
+button a{
+    text-decoration: none;
+}
+
+button a:visited{
+    color: black;
 }
 
 /*Section 3: Contact*/
@@ -225,7 +231,7 @@ footer{
 
 /*Media Queries*/
 
-@media only screen and (max-width: 815px){
+@media only screen and (max-width: 915px){
 
     body{
         width: 100%;
