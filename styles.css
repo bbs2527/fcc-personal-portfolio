@@ -235,132 +235,57 @@ footer{
     color: var(--main-white);
 }
 
-/*Media Queries*/
-@media only screen and (max-width: 600px){
+/*Media Queries - small devices*/
+@media only screen and (max-width: 480px){
     body{
-        width: 100%;
+        width: 100vw;
         margin: auto;
-    }
-
-  #navbar{
-      display: none;
-  }
-
-#welcome-section{
-    text-align: center;
-}
-
-#projects{
-    display: contents;
-}
-
-.project-flex{
-    width: 100vw;
-}
-
-}
-
-@media only screen and (min-width: 600px){
-    body{
-        width: 100%;
-    }
-
-   .nav-items {
-       flex-flow: column wrap;
-       margin: 0 auto;
-       text-align: center;
-   }
-
-    #welcome-section{
         text-align: center;
     }
 
-    #projects{
-        margin: auto;
+    #navbar{
+        display: none;
     }
-
-     .project-tile{
-        display: contents;
-    }
-
-    .project-heading{
-        padding: 2%;
-    }
- 
-    .project-iframe{
-        padding-bottom: 2rem;
-    }
-}
-
-@media only screen and (min-width: 768px){
-    body{
-        width: 100%;
-    }
-
-   .nav-items {
-       flex-flow: column wrap;
-       margin: 0 auto;
-       text-align: center;
-   }
 
     #welcome-section{
-        text-align: center;
+        max-width: 100vw;
     }
 
     #projects{
-        margin: auto;
+        padding:3rem 0rem;
     }
 
-     .project-tile{
+    .project-flex{
         display: flex;
         flex-flow: column wrap;
     }
 
-    .project-heading{
-        padding: 2%;
-    }
- 
-    .project-iframe{
-        padding-bottom: 2rem;
-    }
-}
-
-@media only screen and (min-width: 992px){
-    body{
+    .project-tile{
         width: 100%;
+
     }
 
-   .nav-items {
-       flex-flow: column wrap;
-       margin: 0 auto;
-       text-align: center;
-   }
 
-    #welcome-section{
-        text-align: center;
-    }
-
-    #projects{
-        margin: auto;
-    }
-
-     .project-tile{
-        display: contents;
-    }
-
-    .project-heading{
-        padding: 2%;
-    }
- 
     .project-iframe{
-        padding-bottom: 2rem;
+        max-width: 100%;
+        margin-bottom: 25px;
     }
+
+    #button{
+        margin-top: 2rem;
+    }
+
 }
+
+/*Media Queries - medium/tablet devices*/
+
+
+/*Media Queries - larger/laptop/monitor*/
 
 
 /*Original Media Queries
 
-@media only screen and (max-width: 915px){
+@media only screen and (min-width: 768px){
 
     body{
         width: 100%;
